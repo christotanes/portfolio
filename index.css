@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* ANimation from right side */
+/* img {
+	animation-duration: 1s;
+	animation-name: slidein;
+  }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+/* Test CSS background floor stuff */
+/* .background_floor {
+	width: 100%;
+	background-color: grey;
+	height: 50vh;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+
+.background_pic_layer {
+	display: inline-block;
+	width: 49%;
+	height: 50vh;
+	background-position: cover;
+	z-index: -1;
+}
+
+.bkg1 {
+	background: url(./images/macbook-laptop-ipad-apple-38519.jpeg);
+	position: relative;
+	left: 0px;
+	z-index: -1;
+}
+
+.bkg2 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: url(./images/pexels-photo-109371.jpeg);
+	z-index: -1;
+} */
