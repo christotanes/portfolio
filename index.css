@@ -9,97 +9,70 @@ body {
 	background-color: #112D4E;
 } 
 
-nav > div {
-	background-color: black;
+.navbar_custom {
+	background-color: black !important;
 }
 
-nav > div > p {
+#landing, #projects, #tools, .card_tool_bkg, .nav_link, .modal_bkg {
 	color: #F9F7F7;
 }
+
+.navbar_custom .navbar-toggler-icon, .anchor_bkg {
+	background-color: #3F72AF; /* White color for the toggler icon */
+}
+
+.navbar_custom .navbar-nav .nav-link:hover, .navbar_custom .nav_link:hover {
+	color: #3F72AF !important; /* Yellow color on hover (you can adjust this) */
+}
+
 #landing {
 	width: 100%;
 	background: linear-gradient(0deg, rgba(17,45,78,1) 4%, rgba(17,45,78,0.12088585434173671) 37%, rgba(17,45,78,0) 100%), url('./images/earth.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color: #F9F7F7;
 }
 
 #projects {
 	width: 100%;
 	background: linear-gradient(to bottom, #112D4E, #3F72AF); 
-	color: #F9F7F7;
 }
 
 #tools {
 	width: 100%;
-	background: #3F72AF;
+	background: linear-gradient(to bottom, #3F72AF, #DBE2EF);
+	color: #112D4E;
+}
+
+#contact {
+	width: 100%;
+	background: linear-gradient(to bottom, #DBE2EF, #F9F7F7);
+}
+
+.transform {
+	transition: 2s;
+}
+
+.transform:hover {
+	transform: scale(1.5);
 }
 
 .img_property {
-	border: 0.25rem solid #3F72AF;
-	/* height: 50% */
+	width: 500px;
+	height: 250px;
 }
 
-/* #projects {
-	height: 100vh;
-} */
 
-
-
-/* .profile_pic {
-	width: 50%;
-	align-self: center;
-} */
-
-/* Profilepic fadein and fade out */
-
-/* ANimation from right side */
-/* img {
-	animation-duration: 1s;
-	animation-name: slidein;
-  }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
-
-/* Test CSS background floor stuff */
-/* .background_floor {
-	width: 100%;
-	background-color: grey;
-	height: 50vh;
-	position: relative;
-	display: inline-block;
-	z-index: 1;
+#projects > .card_size > .card_size_2 {
+	width: 18rem;
 }
 
-.background_pic_layer {
-	display: inline-block;
-	width: 49%;
-	height: 50vh;
-	background-position: cover;
-	z-index: -1;
+.card_tool_bkg, .card_size_2, .modal_bkg{
+	background: #3F72AF;
 }
 
-.bkg1 {
-	background: url(./images/macbook-laptop-ipad-apple-38519.jpeg);
-	position: relative;
-	left: 0px;
-	z-index: -1;
-}
 
-.bkg2 {
-	position: relative;
-	top: 0px;
-	left: 0px;
-	background: url(./images/pexels-photo-109371.jpeg);
-	z-index: -1;
-} */
+footer, .message_form {
+	background-color: #F9F7F7;
+	color: #112D4E;
+}
