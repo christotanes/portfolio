@@ -21,6 +21,7 @@ h2 {
 	word-spacing: 3px;
 	line-height: 2rem;
 }
+
 .navbar_custom {
 	background-color: black !important;
 }
@@ -38,11 +39,8 @@ h2 {
 }
 
 #landing {
-	width: 100%;
-	background: linear-gradient(0deg, rgba(17,45,78,1) 4%, rgba(17,45,78,0.12088585434173671) 37%, rgba(17,45,78,0) 100%), url('./images/earth.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	height: 100vh;
+	background: linear-gradient(0deg, rgba(17,45,78,1) 4%, rgba(17,45,78,0.12088585434173671) 37%, rgba(17,45,78,0) 100%);
 }
 
 #projects {
