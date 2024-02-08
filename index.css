@@ -26,7 +26,7 @@ h2 {
 	background-color: black !important;
 }
 
-#landing, #projects, #tools, .card_tool_bkg, .nav_link, .modal_bkg {
+#projects, #tools, .card_tool_bkg, .nav_link, .modal_bkg {
 	color: #F9F7F7;
 }
 
@@ -40,7 +40,28 @@ h2 {
 
 #landing {
 	height: 100vh;
-	/* background: linear-gradient(0deg, rgba(17,45,78,1) 4%, rgba(17,45,78,0.12088585434173671) 37%, rgba(17,45,78,0) 100%); */
+	background-image: url('./images/earth.jpg');
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-text {
+	background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  border: 1px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+	width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
 #projects {
