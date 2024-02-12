@@ -16,6 +16,7 @@ const projects = [
 		"image2": ptgame2,
 		"image3": ptgame3,
 		"alt": "Current node project game",
+		"cssClass": "slideShow1",
 	},
 	{
 		"id": 2,
@@ -27,6 +28,7 @@ const projects = [
 		"image2": postgresql2,
 		"image3": postgresql3,
 		"alt": "PostgreSQL api images",
+		"cssClass": "slideShow2",
 	}
 ]
 export default projects;
