@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
   background-color: #000000 !important;
+}
+
+h1 {
+  letter-spacing:  5px;
+}
+
+h3, h4 {
+  letter-spacing:  3px;
 }
 
 #landing {
@@ -32,6 +43,10 @@ body {
 	width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+#projects {
+  background: linear-gradient(to bottom, #112D4E, #3F72AF);
 }
 
 .slideShow1, .slideShow2 {
@@ -60,7 +75,7 @@ body {
 .logos:before, .logos:after{
   position: absolute;
   top: 0;
-  width: 300px;
+  width: 200px;
   height: 100%;
   content: "";
   z-index: 2;

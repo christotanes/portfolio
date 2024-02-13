@@ -12,15 +12,17 @@ export default function Tools() {
 	))
 
 	return (
-		<Container>
-			<div className="logos">
-				<div className="logos-slide">
-					{logosDisplay}
+		<section id="tools">
+			<Container className="my-4 py-4">
+				<div className="logos">
+					<div className="logos-slide">
+						{logosDisplay}
+					</div>
+					<div className="logos-slide">
+					{ logos2Display }
+					</div>
 				</div>
-				<div className="logos-slide">
-				{ logos2Display }
-				</div>
-			</div>
-		</Container>
+			</Container>
+		</section>
 	)
 }

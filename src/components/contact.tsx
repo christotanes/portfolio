@@ -1,9 +1,17 @@
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
+import ContactButton from "./contactButton"
 
 export default function Contact() {
 	return (
-		<Container className="vh-100">
-			<h1>"This is Contact"</h1>
-		</Container>
+		<section id="contact" className="bg-white">
+			<Container className="vh-100">
+				<Row>
+					<Col className="text-dark mt-3 d-flex flex-column">
+						<h1>"This is Contact"</h1>
+						<ContactButton/>
+					</Col>
+				</Row>
+			</Container>
+		</section>
 	)
 };
